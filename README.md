@@ -67,3 +67,6 @@ Then,  ```backfront <config-file>.yml```, done!
       authtoken: <your-authtoken>
       region: en, #default us
    ```
+
+# License
+[ISC](LICENSE) © 2023
