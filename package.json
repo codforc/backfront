@@ -1,0 +1,31 @@
+{
+  "name": "@codforc/backfront",
+  "version": "1.0.0",
+  "description": "Easy configurable backend server",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codforc/backfront.git"
+  },
+  "homepage": "https://github.com/codforc/backfront#readme",
+  "author": "codforc <akyayladeniz7@gmail.com>",
+  "main": "bin/backfront.js",
+  "bin": {
+    "backfront": "bin/backfront.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "ejs": "^3.1.9",
+    "localtunnel": "^2.0.2",
+    "ngrok": "^5.0.0-beta.2",
+    "nunjucks": "^3.2.4",
+    "pug": "^3.0.2",
+    "yaml": "^2.3.1"
+  },
+  "bugs": {
+    "url": "https://github.com/codforc/backfront/issues"
+  }
+}
